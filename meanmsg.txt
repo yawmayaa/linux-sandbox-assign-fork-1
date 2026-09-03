@@ -6,14 +6,14 @@ read number
 
 # Output a nice message based on the number
 if [[ $number -eq 1 ]]; then
-    echo "You are amazing! Keep shining bright!"
+    echo "You are mean!"
 elif [[ $number -eq 2 ]]; then
-    echo "You have the power to achieve anything you set your mind to!"
+    echo "F*** off !"
 elif [[ $number -eq 3 ]]; then
-    echo "You're unstoppable! Success is just around the corner!"
+    echo "You're stoppable! Success is not  around the corner!"
 elif [[ $number -eq 4 ]]; then
-	echo "Tomorrow will be better"
+	echo "Tomorrow will not  be better"
 else
     echo "That's not a number between 1 and 3, but you're still awesome!"
-fi
+fi	
 

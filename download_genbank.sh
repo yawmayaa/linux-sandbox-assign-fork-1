@@ -11,7 +11,7 @@ read count
 # Search GenBank and save the results in a FASTA file
 output_file="genbank_sequences.fasta"
 esearch -db nucleotide -query "$search_term" | \
-    efetch -format fasta -stop "$count" > "$output_file"
+    efetch -format fasta -start 1 -stop "$count" > "$output_file"
 
 # Confirm success
 if [[ -s $output_file ]]; then
